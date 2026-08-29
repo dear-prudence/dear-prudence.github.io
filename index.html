@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="google-site-verification" content="VDkM19pPVCTymv0bYSe0Uc_WZEAZdHnX9M7AhvlgwCQ" />
-    <title>couverture</title>
+    <title>dear-prudence</title>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@400;500;600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Spectral:wght@300;400;500&display=swap" rel="stylesheet">
@@ -55,7 +55,7 @@
 
         hr {
             border: none;
-            border-top: 1px solid #444;
+            border-top: 1.0px solid #444;
             margin: 2em 0;
         }
 
@@ -64,32 +64,113 @@
             font-size: 0.9em;
             color: #aaaaaa;
         }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .column {
+            float: left;
+            width: 45%;
+            padding: 0px;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+
     </style>
 </head>
+
 <body>
     <div style="text-align: center;">
-        <img src="pfp.jpeg" alt="Your Name" style="width: 250px; border-radius: 8px; margin-bottom: 1em;">
-        <h1>Robin Chisholm</h1>
+        <img src="pfp2.jpeg" alt=":3" style="width: 250px; border-radius: 8px; margin-bottom: 1em;">
+        <h1>Robin "Prudence" Chisholm</h1>
     </div>
     <p>rschisholm@wisc.edu<br>
      Department of Physics, University of Wisconsin, Madison</p>
 
     <nav>
+        <a href="#stories">stories</a>
+        <a href="#poetry">poetry</a>
         <a href="#science">science</a>
-        <a href="#non-science">non-science</a>
         <a href="#contact">contact</a>
     </nav>
 
     <hr>
 
         <p style="text-align: justify;">
-            I am a PhD student at the University of Wisconsin, Madison studying astrophysics under Prof. Elena D'Onghia.
+            This website is where you can access my work.
+            I like to write stories and poetry.
+        <p style="text-align: justify;">
+        If you're here for my science, I am a PhD student at the University of Wisconsin, Madison studying astrophysics
+        under Prof. Elena D'Onghia.
             My research interests broadly span dwarf galaxy structure and dynamics, primarily through the lens of
             theoretical tools such as cosmological simulations and analytic modeling.
             I am a member of the <a href="https://www.clues-project.org/cms/">CLUES</a>
-            collaboration, and the <a href="https://www.sdss.org/">SDSS</a> collaboration.</p>
+            collaboration, and the <a href="https://www.sdss.org/">SDSS</a> collaboration.
+        </p>
 
-        <p>You may download my CV <a href="cv.pdf" target="_blank">here</a>.</p>
+        <p style="text-align: justify;">
+            You may download my CV <a href="cv.pdf" target="_blank">here</a>,
+            and my code <a href="https://github.com/dear-prudence/scripts" target="_blank">here</a>.
+        </p>
+        <br>
+
+    <hr>
+
+    <section id="stories">
+        <h2>stories</h2>
+
+        <p>
+            Right now, I only have the one short story below. If you liked it,
+            please feel free to email me
+            <a href="mailto:dear-prudence.main@pm.me" target="_blank">dear-prudence.main@pm.me</a>.
+            It would make my day to know that my writing has touched someone :)
+        </p>
+        <ul>
+            <i>A Prelude for the Galaxy</i>, written 2026.
+        </ul>
+        <p><span style="margin-left: 60px;"></span>
+            <a href="preludeGalaxy.pdf" target="_blank">standard PDF</a> ,
+            <a href="preludeGalaxy_booklet.pdf" target="_blank">booklet PDF</a> (thank you bookbinder.app <3)
+        </p>
+    </section>
+    <br>
+
+    <hr>
+
+    <section id="poetry">
+        <h2>poetry (and prose)</h2>
+        <p style="text-align: justify;">
+            Poetry is extemely personal, I have only posted those which
+            I feel are more universal to human experience and are by nature less intimate.
+            And as such, they are slightly edited from the original handwritting,
+            primarily to make them more readable with less viscocity.
+            I hope you still get something out of them, and encourage you to write poetry
+            whenever and wherever the moment strikes.
+            The pinnacles of creative expression are sometimes written on the backs of recipts.
+        </p>
+
+        <br>
+        <p><span style="margin-left: 60px;"></span>
+            <a href="ohEvangeline.pdf" target="_blank">Oh, Evangeline</a>, <i>written 24 july 2026, Amiens FR</i>
+        </p>
+
+        <p><span style="margin-left: 60px;"></span>
+            <a href="amsterdamProse.pdf" target="_blank">Amsterdam Prose</a>, <i>written 10 july 2026, Amsterdam NL</i>
+        </p>
+
+        <p><span style="margin-left: 60px;"></span>
+            <a href="haveYouPlayedChessAgainstYourself.pdf" target="_blank">Have You Played Chess Against Yourself?</a>,
+            <i>written 17 jan 2026, Madison WI</i>
+        </p>
+        <br>
+
+    </section>
 
     <hr>
 
@@ -99,49 +180,47 @@
         The following is a list of several projects I'm working on, or have recently completed.
         </p>
         <p>
-            <i>Where might the Large Magellanic Cloud's central supermassive blackhole lie?</i> <br>
+            <i>
+                Where might the Large Magellanic Cloud's central supermassive blackhole lie?
+            </i> <br>
+                </p>
             <ul>
-            Although we typically think of central supermassive blackholes (SMBHs) as lying strictly at the bottom of a
-            galaxy's gravitational potential well, this need not necessarily be the case. Especially regarding dwarf
-            galaxies embedded in turbulent environments, such as the Large Magellanic Cloud (LMC), perturbations and
-            tidal forces can "kick" the SMBH outside the central region. We undertake a novel approach to understand
-            the dynamics and "sloshing" of the LMC's central massive blackhole, using analytic potental modeling and
-            the <a href="https://docs.galpy.org/en/v1.11.2/" target="_blank">galpy</a> orbit integration code, and
-            treating the SMBH distribution probabilistically, to predict where the
-            LMC's putative SMBH would inhabit. Given our estimates for the SMBH's on-sky location, current IFU
+                Although we typically think of supermassive blackholes (SMBHs) as lying strictly at the bottom of a
+                galaxy's gravitational potential well, this need not necessarily be the case.
+                We undertake a novel approach, using analytic
+                potental modeling and the <a href="https://docs.galpy.org/en/v1.11.2/" target="_blank">galpy</a> orbit
+                integration code, and treating the SMBH distribution probabilistically, to predict where the
+            LMC's putative SMBH might inhabit. Given our estimates for the SMBH's on-sky location, current IFU
             spectroscopic surveys such as the SDSS-V
-            <a href="https://iopscience.iop.org/article/10.3847/1538-3881/ad6de9" target="_blank">Large Volume Mapper</a>
+            <a href="https://iopscience.iop.org/article/10.3847/1538-3881/ad6de9" target="_blank">Local Volume Mapper</a>
             could potentially make a detection.
             [paper in development]
         </ul>
-        </p>
 
         <p style="text-align: justify;">
-            <i>Magellanic Cloud-analogs in a cosmological context.</i> <br>
+            <i>Magellanic Cloud-analogs in a cosmological context.</i>
+            <br>
             <ul>
-            Using the <a href="https://doi.org/10.1093/mnras/staa2541" target="_blank">HESTIA</a> cosmological
+            Using the
+                <a href="https://doi.org/10.1093/mnras/staa2541" target="_blank">
+                    HESTIA
+                </a>
+            cosmological
             simulations (which provide an unparalleled laboratory to study small-scale galactic phenomena at a
             sufficient resolution, while still enabling proper embedding in the correct cosmographic landscape), I
             investigate "Magellanic-system analogs", that is systems of dwarfs resembling the Large and Small Magellanic
             Clouds (LMC, SMC) in mass and other properties, that form naturally with a virialized halo and embedded in
-            the correct cosmographic environment. More specifically, insight into a proposed primordial Magellanic
-            corona and the survivability of HI structures (such as the Magellanic Stream and the Leading Arm) within
-            said warm-hot corona can help constrain properties and potential histories of the Magellanic Clouds. I was
-            able to place an upper bound on the lifetime of purely tidally stripped Leading Arm of ~600 Myr, and show
-            that a stellar component to the Magellanic Stream could be spatially non-coexistent with the dominant HI
-            strand. This work was published in ApJ;
+            the correct cosmographic environment.
+            </ul>
+            <ul>
+            This work was published in ApJ.
             <a href="https://iopscience.iop.org/article/10.3847/1538-4357/ae0ccc" target="_blank">DOI</a>.
+                </ul>
+
+        <img src="chisholm2025_imageMap.pdf" alt="Your Name" style="width: 250px; border-radius: 8px; margin-bottom: 1em;">
         </ul>
         </p>
 
-    </section>
-
-    <section id="non-science">
-        <h2>non-science</h2>
-        Outside of science, I spend most of my time in cafés, doing some combination of the following:
-        enjoying music --listening to and playing--, biking to the countryside, cooking new dishes, discovering new
-        places while travelling, and reading-- some of my favorite authors are Clarke, Le Guin, Camus,
-        and Tolstoy.
     </section>
 
     <section id="contact">
